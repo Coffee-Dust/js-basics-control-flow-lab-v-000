@@ -3,8 +3,10 @@ function scuberGreetingForFeet(feet){
   switch true {
     case feet < 400:
       return "This one is on me!"
+    case feet > 2500:
+      
     case feet > 2000:
-      return 
+      return "I will gladly take your thirty bucks."
   }
   
 }
